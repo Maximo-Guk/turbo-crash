@@ -1,0 +1,35 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "stress1": {
+      "cache": false
+    },
+    "stress2": {
+      "cache": false
+    },
+    "stress3": {
+      "cache": false
+    },
+    "stress4": {
+      "cache": false
+    },
+    "stress5": {
+      "cache": false
+    },
+    "stress6": {
+      "cache": false
+    },
+    "stress7": {
+      "cache": false
+    },
+    "stress8": {
+      "cache": false
+    },
+    "stress9": {
+      "cache": false
+    },
+    "stress10": {
+      "cache": false
+    }
+  }
+}

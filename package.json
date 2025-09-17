@@ -1,0 +1,24 @@
+{
+  "name": "turbo-crash",
+  "version": "1.0.0",
+  "description": "Memory and CPU stress testing with Turbo",
+  "packageManager": "npm@10.9.2",
+  "scripts": {
+    "stress1": "node memory-hog.js",
+    "stress2": "node memory-hog.js",
+    "stress3": "node memory-hog.js",
+    "stress4": "node memory-hog.js",
+    "stress5": "node memory-hog.js",
+    "stress6": "node memory-hog.js",
+    "stress7": "node memory-hog.js",
+    "stress8": "node memory-hog.js",
+    "stress9": "node memory-hog.js",
+    "stress10": "node memory-hog.js",
+    "crash": "turbo run stress1 stress2 stress3 stress4 stress5 stress6 stress7 stress8 stress9 stress10 --concurrency=10",
+    "crash-sequential": "turbo run stress1 stress2 stress3 stress4 stress5 stress6 stress7 stress8 stress9 stress10 --concurrency=1",
+    "test-single": "node memory-hog.js"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}
